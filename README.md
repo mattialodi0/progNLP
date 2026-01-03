@@ -11,18 +11,21 @@ Repository containing the projects developed for the **Natural Language Processi
 * **Tomaz Cotic**
 * **Mattia Lodi**
 
----
+
 
 ## Project Overview
 
 This repository explores different approaches to text classification, moving from traditional supervised learning with RNNs and Transformers to advanced prompting techniques with Large Language Models (LLMs).
+
+<div align="center">
 
 | Assignment | Topic | Key Models |
 | :--- | :--- | :--- |
 | **#1** | **Hate Speech Detection** | BiLSTM, RoBERTa, DeBERTa, SVM |
 | **#2** | **Few-Shot LLM Inference** | Mistral-7B-v0.3, Llama-3.1-8B |
 
----
+</div>
+
 
 ## Assignment 1: Text Classification with Deep Learning
 
@@ -42,6 +45,9 @@ We implemented and compared the following architectures:
 ### 📊 Key Results
 We evaluated models using the **F1-score**. The Transformer-based models significantly outperformed the RNNs and the SVM baseline. Interestingly, the domain-specific *RoBERTa-hate-speech* outperformed the architecturally superior *DeBERTa-v3*, proving the value of domain adaptation.
 
+
+<div align="center">
+   
 | Model | F1-Score (Best) |
 | :--- | :--- |
 | **RoBERTa** | **0.5305** |
@@ -49,9 +55,10 @@ We evaluated models using the **F1-score**. The Transformer-based models signifi
 | 2-layer BiLSTM | 0.3637 |
 | 1-layer BiLSTM | 0.3573 |
 
+</div>
+
 > **Note:** The `Reported` and `Judgmental` classes proved difficult for all models due to high semantic ambiguity and dataset imbalance.
 
----
 
 ## Assignment 2: Zero-shot & Few-shot Inference with LLMs
 
