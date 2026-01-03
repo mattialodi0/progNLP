@@ -8,7 +8,7 @@ Repository containing the projects developed for the **Natural Language Processi
 
 **Authors:**
 * **Samuele Centanni** 
-* **Tomaz Cotic**
+* **Tomaž Cotič**
 * **Mattia Lodi**
 
 
