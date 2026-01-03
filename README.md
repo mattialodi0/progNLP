@@ -84,5 +84,5 @@ We tested three distinct inference modes:
 
 | Mode | Mistral-7B | Llama-3.1 |
 | :--- | :--- | :--- |
-| **Zero-shot** | 0.3738 | **0.6200** |
+| **Zero-shot** | 0.3738 | **0.4797** |
 | **Few-shot (Similarity, k=4)** | **0.5476** | 0.5304 |
